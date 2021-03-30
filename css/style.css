@@ -188,18 +188,38 @@ hr{
     margin-bottom: 60px;
 }
 
-.contacts div{
+.contactsdiv{
     width: 100px;
     height: 100px;
-    background-color: #333;
     border-radius: 5px;
     margin: auto;
 }
 
-.youtube{
-    background-image: url(../img/icons/youtube.png);
+.contactsdiv:hover{
+    background-color: #333;
+    transition-duration: 0.5s;
+}
+
+.contactsdiv div{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
     background-size: contain;
 }
+
+.mail div{
+    background-image: url(../img/icons/mail.png);
+}
+.youtube div{
+    background-image: url(../img/icons/youtube.png);
+}
+.instagram div{
+    background-image: url(../img/icons/instagram.png);
+}
+.github div{
+    background-image: url(../img/icons/github.png);
+}
+
 /* END CONTACT */
 
 
