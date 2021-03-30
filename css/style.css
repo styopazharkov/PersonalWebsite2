@@ -9,6 +9,31 @@ body{
     grid-template-columns: 300px auto;
 }
 
+.sectionheader{
+    font-size: 30px;
+	letter-spacing: -2px;
+	margin: 0;
+    margin-top: 50px;
+	font-weight: 500;
+	line-height: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.sectiontext{
+    font-size: 20px;
+	letter-spacing: 0px;
+	margin: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+	font-weight: 300;
+	line-height: 25px;
+    color: white;
+}
+
+
 /* BACKGROUND */
 .bk{
     background-image: url(../img/raised-hand.png);
@@ -83,29 +108,6 @@ body{
 
 /* ABOUT */
 
-.aboutme{
-    font-size: 30px;
-	letter-spacing: -2px;
-	margin: 0;
-    margin-top: 50px;
-	font-weight: 500;
-	line-height: 30px;
-    color: white;
-    text-align: center;
-    text-decoration: underline;
-}
-
-.abouttext{
-    font-size: 20px;
-	letter-spacing: 0px;
-	margin: 0;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 20px;
-	font-weight: 300;
-	line-height: 25px;
-    color: white;
-}
 .coursetype{
     font-size: 20px;
 	letter-spacing: 0px;
