@@ -33,6 +33,29 @@ body{
 }
 
 
+.subhead{
+    font-size: 20px;
+	letter-spacing: 0px;
+	margin: 0;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+	font-weight: 600;
+	line-height: 25px;
+    color: white;
+}
+
+.subtext{
+    font-size: 20px;
+	letter-spacing: 0px;
+	margin: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+	font-weight: 300;
+	line-height: 25px;
+    color: white;
+}
+
 /* BACKGROUND */
 .bk{
     background-image: url(../img/raised-hand.png);
@@ -107,17 +130,6 @@ body{
 
 /* ABOUT */
 
-.coursetype{
-    font-size: 20px;
-	letter-spacing: 0px;
-	margin: 0;
-    margin-top: 30px;
-    text-align: center;
-	font-weight: 600;
-	line-height: 25px;
-    color: white;
-}
-
 .courses{
     margin: 0;
 }
@@ -144,6 +156,28 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.textlink{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.textlink:hover{
+    background-color: #222;
+}
+
+
+.textlink p{
+    color: white;
+    text-align: center;
+    margin: 10px;
+    line-height: 30px;
+}
+
+
 /* END PROJECTS */
 
 /* CONTACT  */
