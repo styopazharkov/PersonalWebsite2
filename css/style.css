@@ -56,6 +56,11 @@ body{
     color: white;
 }
 
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 /* BACKGROUND */
 .bk{
     background-image: url(../img/raised-hand.png);
@@ -145,17 +150,10 @@ body{
     color: white;
 }
 
-#home{
-    margin-bottom: 50px;
-}
 /* END ABOUT */
 
 /* PROJECTS */
 
-#projects{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 
 .textlink{
     margin: auto;
@@ -176,13 +174,31 @@ body{
     margin: 10px;
     line-height: 30px;
 }
-
-
 /* END PROJECTS */
 
 /* CONTACT  */
-#contact{
-    margin-top: 50px;
+.contacts{
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.contacts div{
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.youtube{
+    background-image: url(../img/icons/youtube.png);
+    background-size: contain;
 }
 /* END CONTACT */
 
