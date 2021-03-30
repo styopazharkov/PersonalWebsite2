@@ -13,7 +13,6 @@ body{
     font-size: 30px;
 	letter-spacing: -2px;
 	margin: 0;
-    margin-top: 50px;
 	font-weight: 500;
 	line-height: 30px;
     color: white;
@@ -133,7 +132,25 @@ body{
 	line-height: 25px;
     color: white;
 }
+
+#home{
+    margin-bottom: 50px;
+}
 /* END ABOUT */
+
+/* PROJECTS */
+
+#projects{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* END PROJECTS */
+
+/* CONTACT  */
+#contact{
+    margin-top: 50px;
+}
+/* END CONTACT */
 
 
 /* RESPONSIVE EDITS */
